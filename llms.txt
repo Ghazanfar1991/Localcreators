@@ -1,12 +1,13 @@
 # LocalCreators
 
-> LocalCreators is an Australian self-serve platform where small businesses hire bundles of local nano creators (1,000–10,000 followers) for a flat monthly price. Launching soon in Sydney, Australia.
+> LocalCreators is an Australian self-serve platform where small businesses post briefs and set their own budget per brief, and local nano creators (1,000–10,000 followers) apply to post about them. Launching soon in Sydney, Australia.
 
 ## What it is
 
-- A small business (cafe, salon, gym, boutique, restaurant) buys a bundle of 10 local nano creators for $79–$99/month.
-- Creators post about the business to audiences in the same suburb or city — people who can actually walk into the shop.
+- A small business (cafe, salon, gym, boutique, restaurant) pays a monthly subscription — Starter $29/month, Growth $49/month, Multi-location $99/month — and posts briefs with a budget it sets, from a $50 minimum per brief.
+- Creators see transparent rates upfront, submit finished content, and are only paid when the business approves the post — payment is held in escrow until approval. A 10% platform fee applies to approved brief budgets only.
 - Matching is suburb-level: creators are verified as local by where their audience lives, not just where the creator lives.
+- Weekly suburb leaderboards and brief contests rank creators by local views, in the style of Posted's contests — without Posted's $500/month subscription and $5,000 contest minimum.
 - Automatic disclosure compliance is built in for Australian advertising rules.
 
 ## Why local nano creators
