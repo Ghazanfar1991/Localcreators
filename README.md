@@ -18,7 +18,7 @@ Sydney.
 - `assets/favicon.png` — 180×180 favicon, derived from the logo mark
 - `assets/og-image.jpg` — 1200×630 OG/social image, referenced by `og:image` + `twitter:image`
 - `assets/hero-creator.jpg`, `assets/hero-cafe.jpg`, `assets/creator-portrait.jpg` — generated photos used in the hero phone frame, photo band, leaderboard and creator cards
-- `sitemap.xml`, `robots.txt` — SEO files (point at localcreators.vercel.app)
+- `sitemap.xml`, `robots.txt` — SEO files (point at getlocalcreators.vercel.app)
 
 ## Preview locally
 
@@ -32,12 +32,15 @@ No build step, no npm install. Just static files.
 
 ## Deploy to Vercel
 
-Suggested project name: **`localcreators`** → `https://localcreators.vercel.app`
+Suggested project name: **`getlocalcreators`** → `https://getlocalcreators.vercel.app`
+
+(The plain `localcreators` subdomain on vercel.app is already taken by an
+unrelated site, hence `getlocalcreators`.)
 
 In the Vercel dashboard: **Add New → Project → Import** the `site/` folder
 (or the repo containing it) and deploy. Framework preset: **Other**. No
 environment variables are needed. The `canonical`, `sitemap.xml`,
-`robots.txt` and JSON-LD URLs already point at `localcreators.vercel.app` — if
+`robots.txt` and JSON-LD URLs already point at `getlocalcreators.vercel.app` — if
 the project name ends up different, search-replace that domain in
 `index.html`, `sitemap.xml` and `robots.txt`.
 
@@ -107,22 +110,22 @@ invented stats, testimonials or case studies. All blog URLs are in
 - **Mailchimp check** — wired up (see above). After deploy, submit a test
   email and confirm it lands in Mailchimp with SOURCE = "LocalCreators".
 - **Name** — settled: **LocalCreators** (renamed from NanoLocal on
-  27 Nov 2026). Vercel project name suggestion is `localcreators`.
+  27 Nov 2026). Vercel project name suggestion is `getlocalcreators`.
 - **Contact email** — the footer currently uses `hello@localcreators.com.au`
   as a placeholder; confirm it is a real inbox or change it.
 - **Google Search Console** — submit the sitemap after deploy and watch
   which queries bring impressions; keyword note is at
   `~/workspace/research_notes/nanolocal-landing/keywords.md`.
   Verification readiness: after deploy, add the property
-  `https://localcreators.vercel.app/` in Search Console as a URL-prefix
+  `https://getlocalcreators.vercel.app/` in Search Console as a URL-prefix
   property. Verify ownership with either the **HTML file** method (upload
   the file Google gives you to this folder — the site root, so it is served
-  at `https://localcreators.vercel.app/<google-file>.html`) or the **HTML
+  at `https://getlocalcreators.vercel.app/<google-file>.html`) or the **HTML
   meta tag** method (paste Google's tag into the `<head>` of `index.html`).
   Do NOT use DNS verification — the `vercel.app` DNS is not user-controlled.
   No verification token exists yet; Google issues one during setup, so do
   not invent or hard-code one. After verification, submit
-  `https://localcreators.vercel.app/sitemap.xml` in Search Console.
+  `https://getlocalcreators.vercel.app/sitemap.xml` in Search Console.
 
 ## Review fixes (27 Nov 2026, user feedback rounds)
 

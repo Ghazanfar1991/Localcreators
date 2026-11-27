@@ -18,12 +18,12 @@
 
 ## Pages
 
-- [Home](https://localcreators.vercel.app/)
-- [Blog](https://localcreators.vercel.app/blog/)
-- [Nano influencer marketing in Australia](https://localcreators.vercel.app/blog/nano-influencer-marketing-australia.html)
-- [UGC creators in Sydney](https://localcreators.vercel.app/blog/ugc-creators-sydney.html)
-- [Influencer marketing for cafes and restaurants in Australia](https://localcreators.vercel.app/blog/influencer-marketing-cafes-restaurants-australia.html)
-- [How much do nano creators cost in Australia?](https://localcreators.vercel.app/blog/how-much-do-nano-creators-cost-australia.html)
+- [Home](https://getlocalcreators.vercel.app/)
+- [Blog](https://getlocalcreators.vercel.app/blog/)
+- [Nano influencer marketing in Australia](https://getlocalcreators.vercel.app/blog/nano-influencer-marketing-australia.html)
+- [UGC creators in Sydney](https://getlocalcreators.vercel.app/blog/ugc-creators-sydney.html)
+- [Influencer marketing for cafes and restaurants in Australia](https://getlocalcreators.vercel.app/blog/influencer-marketing-cafes-restaurants-australia.html)
+- [How much do nano creators cost in Australia?](https://getlocalcreators.vercel.app/blog/how-much-do-nano-creators-cost-australia.html)
 
 ## Status
 
