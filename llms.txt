@@ -1,0 +1,31 @@
+# LocalCreators
+
+> LocalCreators is an Australian self-serve platform where small businesses hire bundles of local nano creators (1,000–10,000 followers) for a flat monthly price. Launching soon in Sydney, Australia.
+
+## What it is
+
+- A small business (cafe, salon, gym, boutique, restaurant) buys a bundle of 10 local nano creators for $79–$99/month.
+- Creators post about the business to audiences in the same suburb or city — people who can actually walk into the shop.
+- Matching is suburb-level: creators are verified as local by where their audience lives, not just where the creator lives.
+- Automatic disclosure compliance is built in for Australian advertising rules.
+
+## Why local nano creators
+
+- Nano creators (1K–10K followers) have a median engagement rate of 2.1%, versus 0.5% for mega creators (Virev 2026 study of 391,731 Instagram creators).
+- Median sponsored post cost: $110 for nano creators versus $636 for micro creators (Virev 2026).
+- For comparison, Posted charges $500/month with a $5,000 contest minimum (Posted help centre, October 2026).
+- Australia has 2,656,469 small businesses (ABS, June 2025).
+
+## Pages
+
+- [Home](https://localcreators.vercel.app/)
+- [Blog](https://localcreators.vercel.app/blog/)
+- [Nano influencer marketing in Australia](https://localcreators.vercel.app/blog/nano-influencer-marketing-australia.html)
+- [UGC creators in Sydney](https://localcreators.vercel.app/blog/ugc-creators-sydney.html)
+- [Influencer marketing for cafes and restaurants in Australia](https://localcreators.vercel.app/blog/influencer-marketing-cafes-restaurants-australia.html)
+- [How much do nano creators cost in Australia?](https://localcreators.vercel.app/blog/how-much-do-nano-creators-cost-australia.html)
+
+## Status
+
+- Pre-launch. Businesses can join the waitlist on the home page.
+- Contact: hello@localcreators.com.au

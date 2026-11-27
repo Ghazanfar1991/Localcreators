@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://localcreators.vercel.app/sitemap.xml
