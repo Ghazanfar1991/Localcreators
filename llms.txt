@@ -1,6 +1,6 @@
 # LocalCreators
 
-> LocalCreators is an Australian self-serve platform where small businesses post briefs and set their own budget per brief, and local nano creators (1,000–10,000 followers) apply to post about them. Launching soon in Sydney, Australia.
+> LocalCreators is an Australian self-serve platform where small businesses post briefs and set their own budget per brief, and local small creators (1,000–10,000 followers) apply to post about them. Launching soon in Sydney, Australia.
 
 ## What it is
 
@@ -10,10 +10,10 @@
 - Weekly suburb leaderboards and brief contests rank creators by local views, in the style of Posted's contests — without Posted's $500/month subscription and $5,000 contest minimum.
 - Automatic disclosure compliance is built in for Australian advertising rules.
 
-## Why local nano creators
+## Why local small creators
 
 - Nano creators (1K–10K followers) have a median engagement rate of 2.1%, versus 0.5% for mega creators (Virev 2026 study of 391,731 Instagram creators).
-- Median sponsored post cost: $110 for nano creators versus $636 for micro creators (Virev 2026).
+- Median sponsored post cost: $110 for small creators versus $636 for micro creators (Virev 2026).
 - For comparison, Posted charges $500/month with a $5,000 contest minimum (Posted help centre, October 2026).
 - Australia has 2,656,469 small businesses (ABS, June 2025).
 
@@ -29,4 +29,6 @@
 ## Status
 
 - Pre-launch. Businesses can join the waitlist on the home page.
+- The weekly suburb leaderboard is hidden until launch; rankings will publish from real campaigns.
+- The weekly suburb leaderboard is hidden until launch; rankings will publish from real campaigns.
 - Contact: hello@localcreators.com.au
