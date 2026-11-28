@@ -1248,6 +1248,16 @@ var titles={home:document.title,
  ugc:'UGC Creators Sydney — Find & Brief Local Creators | LocalCreators',
  cafes:'Influencer Marketing for Cafés & Restaurants in Australia | LocalCreators',
  cost:'How Much Do Nano Creators Cost in Australia? | LocalCreators'};
+/* ---------- Vercel Analytics pageviews for hash-routed views ---------- */
+var vaPaths={home:'/',blog:'/blog',nano:'/blog/nano-influencer-marketing-australia',ugc:'/blog/ugc-creators-sydney',cafes:'/blog/influencer-marketing-cafes-restaurants-australia',cost:'/blog/how-much-do-nano-creators-cost-australia'};
+var currentView=null;
+function trackView(key){
+  if(currentView===null){currentView=key;return} /* first load: the analytics script already auto-tracked it */
+  if(key===currentView)return;
+  if(currentView==='blog'&&key==='home'){currentView=key;return} /* blog index -> homepage anchor: same home view, no recount */
+  currentView=key;
+  if(window.va)window.va('pageview',{path:vaPaths[key]||'/'});
+}
 function showView(key,scrollTop){
   Object.keys(views).forEach(function(k){views[k].classList.toggle('active',k===key)});
   if(titles[key])document.title=titles[key];
@@ -1257,13 +1267,14 @@ function route(){
   var h=location.hash||'';
   var m=h.match(/^#blog\/(.+)$/);
   if(m){var slug=m[1];
-    if(slug.indexOf('nano-influencer')===0)return showView('nano');
-    if(slug.indexOf('ugc-creators')===0)return showView('ugc');
-    if(slug.indexOf('influencer-marketing-cafes')===0)return showView('cafes');
-    if(slug.indexOf('how-much')===0)return showView('cost');
+    if(slug.indexOf('nano-influencer')===0){trackView('nano');return showView('nano')}
+    if(slug.indexOf('ugc-creators')===0){trackView('ugc');return showView('ugc')}
+    if(slug.indexOf('influencer-marketing-cafes')===0){trackView('cafes');return showView('cafes')}
+    if(slug.indexOf('how-much')===0){trackView('cost');return showView('cost')}
   }
-  if(h==='#blog'){showView('home',false);setTimeout(function(){var el=$('#blog');if(el)el.scrollIntoView()},30);return}
+  if(h==='#blog'){trackView('blog');showView('home',false);setTimeout(function(){var el=$('#blog');if(el)el.scrollIntoView()},30);return}
   /* In-page anchors (#who, #pricing, ...): just make sure home is shown; let the browser do the anchor scroll */
+  trackView('home');
   if(!views.home.classList.contains('active')){showView('home',false)}
 }
 window.addEventListener('hashchange',route);
@@ -1274,6 +1285,7 @@ $$('[data-nav]').forEach(function(a){
   a.addEventListener('click',function(){
     var mode=a.getAttribute('data-nav');
     if(mode==='home'||mode==='home-blog'||mode==='home-join'){
+      if(mode==='home-blog'){trackView('blog')}else{trackView('home')}
       if(!views.home.classList.contains('active')){showView('home')}
       if(mode==='home-blog'){setTimeout(function(){$('#blog').scrollIntoView()},40)}
       if(mode==='home-join'){setTimeout(function(){$('#join').scrollIntoView()},40)}
